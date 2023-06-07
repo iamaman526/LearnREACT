@@ -16,4 +16,27 @@
 https://www.ibm.com/topics/content-delivery-networks
 
 
+## Parcel
+ 
+Dev Build
+Local server
+HMR = hot module replacement
+File Watching Algorithm - Written in c++
+Caching - faster builds.
+Image optimazation 
+Minification of the File
+Bundling
+Compressing
+consistent hashing
+code splittling 
+Differnetial Bundling -  support older browsers
+Dignostics  https://parceljs.org/docs/
+Error handling
+https
+Tree shaking - remove unused code 
+different dev and prod bundles
+
+
+
+## browserlist to support older version.
 
