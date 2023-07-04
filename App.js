@@ -34,18 +34,36 @@ import ReactDOM from "react-dom/client";
 
 // ----------------------day 1 and 2 ends here---------------------------------//
 
-// REACT STARTS HERE ------------------------DAY 3 ----------------------------//
+//  REACT STARTS HERE ------------------------DAY 3 ----------------------------//
 
 // React.creatElement => Reactelement(object) => HTMLElement(render)
 
-const heading = (
+//JSX - HTML -like  or XML-like syntax
+//JSX => Babel transpiles it to  React.createElment => Reactelement(object) => HTMLElement(render)
+
+// React Functional Component
+
+const Title = (
   <h1 className="head" tabIndex="5">
     Namaste React using JSX
   </h1>
 );
-//JSX - HTML -like  or XML-like syntax
-//JSX =>   React.createelment => Reactelement(object) => HTMLElement(render)
-// it is a reactElement.
+const Title2 = (
+  
+  <h1 className="head" tabIndex="5">
+    Namaste React using JSX
+  </h1>
+);
+
+//Component composition
+const HeadingComponent = () => (
+  <div id="Container">
+    <h2>{Title}</h2>
+
+    <h1 className="heading">Namaste React Functional Component</h1>
+  </div>
+);
+
 const root = ReactDOM.createRoot(document.getElementById("root"));
 
-root.render(heading);
+root.render(<HeadingComponent />);
