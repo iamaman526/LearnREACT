@@ -1,3 +1,30 @@
-.header{
-    display: flex;
+.header {
+  display: flex;
+  justify-content: space-between;
+  border: 1px solid black;
+}
+
+.logo {
+  width: 50px;
+}
+
+.nav-item {
+  padding-right: 500px;
+  text-align: right;
+}
+
+.nav-item > ul {
+  display: flex;
+  list-style-type: none;
+}
+
+.nav-item > ul > li {
+  padding: 4px;
+  margin: 10px;
+}
+
+.res-card {
+  border: 1px solid black;
+  width: 200px;
+  height: 300px;
 }
