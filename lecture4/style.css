@@ -1,15 +1,21 @@
+
+
 .header {
+
   display: flex;
   justify-content: space-between;
   border: 1px solid black;
 }
 
 .logo {
+
   width: 50px;
+  padding:  1rem;
+  
 }
 
 .nav-item {
-  padding-right: 500px;
+  padding-right: 350px;
   text-align: right;
 }
 
@@ -20,14 +26,17 @@
 
 .nav-item > ul > li {
   padding: 4px;
-  margin: 10px;
+  margin:10px;
+  margin-left: 5rem;
+  font-size: 1.5em;
+
 }
 
 .res-card {
-  width: 200px;
-  height: 350px;
-  margin: 5px;
-  padding: 5px;
+  width: 15em;
+  height: 29em;
+  margin: 4px;
+  padding: 4px;
  
 
 }
@@ -39,6 +48,7 @@
 
 .res-logo {
   width: 100%
+  
 }
 
 .search {

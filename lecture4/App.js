@@ -54,7 +54,7 @@ const RestaurentCard = (props) => {
       <img
         className="res-logo"
         alt="res-logo"
-        src="https://b.zmtcdn.com/data/pictures/chains/9/51039/e3e149c669fa5d2e3f57221a2c394697_o2_featured_v2.jpg?output-format=webp"
+        src="https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_660/56c9ab92bd79745fd152a30fa2525426"
       />
       <h3>{resData?.data?.data?.name}</h3>
      
@@ -191,8 +191,9 @@ const Body = () => {
     <div className="body">
       <div className="search">Search</div>
       <div className="res-container">
-        <RestaurentCard resData = {resObj}
-        />
+        <RestaurentCard resData = {resObj}/>
+        <RestaurentCard resData = {resObj}/>
+        <RestaurentCard resData = {resObj}/>
       </div>
     </div>
   );
