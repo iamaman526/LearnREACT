@@ -193,7 +193,7 @@ const resList = [
     "type": "restaurant",
     "data": {
       "type": "F",
-      "id": "731706",
+      "id": "731709",
       "name": "prince da dhaba",
       "uuid": "1deaba58-3e40-4b79-ac25-2f03bb96f756",
       "city": "1",
@@ -306,7 +306,235 @@ const resList = [
     "type": "restaurant",
     "data": {
       "type": "F",
-      "id": "731706",
+      "id": "731708",
+      "name": "prince da dhaba",
+      "uuid": "1deaba58-3e40-4b79-ac25-2f03bb96f756",
+      "city": "1",
+      "area": "Ramamurthy nagar",
+      "totalRatingsString": "",
+      "cloudinaryImageId": "v1675667626/PC_Creative%20refresh/South_Indian_4.png",
+      "cuisines": [
+        "Bakery"
+      ],
+      "tags": [
+        
+      ],
+      "costForTwo": 30000,
+      "costForTwoString": "₹300 FOR TWO",
+      "deliveryTime": 37,
+      "minDeliveryTime": 37,
+      "maxDeliveryTime": 37,
+      "slaString": "37 MINS",
+      "lastMileTravel": 0,
+      "slugs": {
+        "restaurant": "creams-and-berrys-ramamurthy-nagar-ramamurthy-nagar",
+        "city": "Bangalore"
+      },
+      "cityState": "1",
+      "address": "",
+      "locality": "Sbi Bank Colony",
+      "parentId": 434554,
+      "unserviceable": false,
+      "veg": false,
+      "select": false,
+      "favorite": false,
+      "tradeCampaignHeaders": [
+        
+      ],
+      "chain": [
+        
+      ],
+      "feeDetails": {
+        "fees": [
+          {
+            "name": "BASE_DISTANCE",
+            "fee": 9800,
+            "message": ""
+          },
+          {
+            "name": "BASE_TIME",
+            "fee": 0,
+            "message": ""
+          },
+          {
+            "name": "ANCILLARY_SURGE_FEE",
+            "fee": 0,
+            "message": ""
+          }
+        ],
+        "totalFees": 9800,
+        "message": "",
+        "title": "Delivery Charge",
+        "amount": "9800",
+        "icon": ""
+      },
+      "availability": {
+        "opened": true,
+        "nextOpenMessage": "",
+        "nextCloseMessage": ""
+      },
+      "longDistanceEnabled": 0,
+      "rainMode": "NONE",
+      "thirdPartyAddress": false,
+      "thirdPartyVendor": "",
+      "adTrackingID": "cid=7387083~p=1~eid=00000189-7432-0d7e-22dc-875200d9014f~srvts=1689871584638~89290",
+      "badges": {
+        "imageBased": [
+          
+        ],
+        "textBased": [
+          
+        ],
+        "textExtendedBadges": [
+          
+        ]
+      },
+      "lastMileTravelString": "9.5 kms",
+      "hasSurge": false,
+      "sla": {
+        "restaurantId": "",
+        "deliveryTime": 37,
+        "minDeliveryTime": 37,
+        "maxDeliveryTime": 37,
+        "lastMileTravel": 0,
+        "lastMileDistance": 9.5,
+        "serviceability": "SERVICEABLE",
+        "rainMode": "NONE",
+        "preferentialService": false,
+        "iconType": "EMPTY"
+      },
+      "promoted": true,
+      "avgRating": "--",
+      "totalRatings": 0,
+      "new": false
+    },
+    "subtype": "basic"
+  },
+  "parentWidget": false
+},
+
+{
+  "cardType": "restaurant",
+  "layoutAlignmentType": "VERTICAL",
+  "data": {
+    "type": "restaurant",
+    "data": {
+      "type": "F",
+      "id": "731701",
+      "name": "prince da dhaba",
+      "uuid": "1deaba58-3e40-4b79-ac25-2f03bb96f756",
+      "city": "1",
+      "area": "Ramamurthy nagar",
+      "totalRatingsString": "",
+      "cloudinaryImageId": "v1674029846/PC_Creative%20refresh/3D_bau/banners_new/Idli.png",
+      "cuisines": [
+        "Bakery"
+      ],
+      "tags": [
+        
+      ],
+      "costForTwo": 30000,
+      "costForTwoString": "₹300 FOR TWO",
+      "deliveryTime": 37,
+      "minDeliveryTime": 37,
+      "maxDeliveryTime": 37,
+      "slaString": "37 MINS",
+      "lastMileTravel": 0,
+      "slugs": {
+        "restaurant": "creams-and-berrys-ramamurthy-nagar-ramamurthy-nagar",
+        "city": "Bangalore"
+      },
+      "cityState": "1",
+      "address": "",
+      "locality": "Sbi Bank Colony",
+      "parentId": 434554,
+      "unserviceable": false,
+      "veg": false,
+      "select": false,
+      "favorite": false,
+      "tradeCampaignHeaders": [
+        
+      ],
+      "chain": [
+        
+      ],
+      "feeDetails": {
+        "fees": [
+          {
+            "name": "BASE_DISTANCE",
+            "fee": 9800,
+            "message": ""
+          },
+          {
+            "name": "BASE_TIME",
+            "fee": 0,
+            "message": ""
+          },
+          {
+            "name": "ANCILLARY_SURGE_FEE",
+            "fee": 0,
+            "message": ""
+          }
+        ],
+        "totalFees": 9800,
+        "message": "",
+        "title": "Delivery Charge",
+        "amount": "9800",
+        "icon": ""
+      },
+      "availability": {
+        "opened": true,
+        "nextOpenMessage": "",
+        "nextCloseMessage": ""
+      },
+      "longDistanceEnabled": 0,
+      "rainMode": "NONE",
+      "thirdPartyAddress": false,
+      "thirdPartyVendor": "",
+      "adTrackingID": "cid=7387083~p=1~eid=00000189-7432-0d7e-22dc-875200d9014f~srvts=1689871584638~89290",
+      "badges": {
+        "imageBased": [
+          
+        ],
+        "textBased": [
+          
+        ],
+        "textExtendedBadges": [
+          
+        ]
+      },
+      "lastMileTravelString": "9.5 kms",
+      "hasSurge": false,
+      "sla": {
+        "restaurantId": "",
+        "deliveryTime": 37,
+        "minDeliveryTime": 37,
+        "maxDeliveryTime": 37,
+        "lastMileTravel": 0,
+        "lastMileDistance": 9.5,
+        "serviceability": "SERVICEABLE",
+        "rainMode": "NONE",
+        "preferentialService": false,
+        "iconType": "EMPTY"
+      },
+      "promoted": true,
+      "avgRating": "--",
+      "totalRatings": 0,
+      "new": false
+    },
+    "subtype": "basic"
+  },
+  "parentWidget": false
+},
+
+{
+  "cardType": "restaurant",
+  "layoutAlignmentType": "VERTICAL",
+  "data": {
+    "type": "restaurant",
+    "data": {
+      "type": "F",
+      "id": "731703",
       "name": "prince da dhaba",
       "uuid": "1deaba58-3e40-4b79-ac25-2f03bb96f756",
       "city": "1",
@@ -411,7 +639,121 @@ const resList = [
     "subtype": "basic"
   },
   "parentWidget": false
-}
+},
+
+{
+  "cardType": "restaurant",
+  "layoutAlignmentType": "VERTICAL",
+  "data": {
+    "type": "restaurant",
+    "data": {
+      "type": "F",
+      "id": "731705",
+      "name": "prince da dhaba",
+      "uuid": "1deaba58-3e40-4b79-ac25-2f03bb96f756",
+      "city": "1",
+      "area": "Ramamurthy nagar",
+      "totalRatingsString": "",
+      "cloudinaryImageId": "v1674029858/PC_Creative%20refresh/3D_bau/banners_new/Pure_Veg.png",
+      "cuisines": [
+        "Bakery"
+      ],
+      "tags": [
+        
+      ],
+      "costForTwo": 30000,
+      "costForTwoString": "₹300 FOR TWO",
+      "deliveryTime": 37,
+      "minDeliveryTime": 37,
+      "maxDeliveryTime": 37,
+      "slaString": "37 MINS",
+      "lastMileTravel": 0,
+      "slugs": {
+        "restaurant": "creams-and-berrys-ramamurthy-nagar-ramamurthy-nagar",
+        "city": "Bangalore"
+      },
+      "cityState": "1",
+      "address": "",
+      "locality": "Sbi Bank Colony",
+      "parentId": 434554,
+      "unserviceable": false,
+      "veg": false,
+      "select": false,
+      "favorite": false,
+      "tradeCampaignHeaders": [
+        
+      ],
+      "chain": [
+        
+      ],
+      "feeDetails": {
+        "fees": [
+          {
+            "name": "BASE_DISTANCE",
+            "fee": 9800,
+            "message": ""
+          },
+          {
+            "name": "BASE_TIME",
+            "fee": 0,
+            "message": ""
+          },
+          {
+            "name": "ANCILLARY_SURGE_FEE",
+            "fee": 0,
+            "message": ""
+          }
+        ],
+        "totalFees": 9800,
+        "message": "",
+        "title": "Delivery Charge",
+        "amount": "9800",
+        "icon": ""
+      },
+      "availability": {
+        "opened": true,
+        "nextOpenMessage": "",
+        "nextCloseMessage": ""
+      },
+      "longDistanceEnabled": 0,
+      "rainMode": "NONE",
+      "thirdPartyAddress": false,
+      "thirdPartyVendor": "",
+      "adTrackingID": "cid=7387083~p=1~eid=00000189-7432-0d7e-22dc-875200d9014f~srvts=1689871584638~89290",
+      "badges": {
+        "imageBased": [
+          
+        ],
+        "textBased": [
+          
+        ],
+        "textExtendedBadges": [
+          
+        ]
+      },
+      "lastMileTravelString": "9.5 kms",
+      "hasSurge": false,
+      "sla": {
+        "restaurantId": "",
+        "deliveryTime": 37,
+        "minDeliveryTime": 37,
+        "maxDeliveryTime": 37,
+        "lastMileTravel": 0,
+        "lastMileDistance": 9.5,
+        "serviceability": "SERVICEABLE",
+        "rainMode": "NONE",
+        "preferentialService": false,
+        "iconType": "EMPTY"
+      },
+      "promoted": true,
+      "avgRating": "--",
+      "totalRatings": 0,
+      "new": false
+    },
+    "subtype": "basic"
+  },
+  "parentWidget": false
+},
 ]
  
 
@@ -423,9 +765,14 @@ const Body = () => {
     <div className="body">
       <div className="search">Search</div>
       <div className="res-container">
-        <RestaurentCard resData = {resList[0]}/>
-        <RestaurentCard resData = {resList[1]}/>
-        <RestaurentCard resData = {resList[2]}/>
+
+        {
+          resList.map((restaurant) => ( <RestaurentCard key={restaurant.data.data.id} resData={restaurant}/>)
+        )}
+
+
+
+
     
       
       </div>
