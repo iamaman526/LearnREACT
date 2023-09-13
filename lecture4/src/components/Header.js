@@ -1,4 +1,5 @@
 import React from "react";
+import { LOGO_URL } from "../utils/constants";
 
 
 const Header = () => {
@@ -7,7 +8,7 @@ const Header = () => {
         <div className="logo-container">
           <img
             className="logo"
-            src="https://vyapar-logo-maker.s3.ap-south-1.amazonaws.com/images/logo-maker-3.webp"
+            src= {LOGO_URL}
           />
         </div>
         <div className="nav-item">
