@@ -10,6 +10,7 @@ const resList = [
         name: "Creams and berrys",
         uuid: "1deaba58-3e40-4b79-ac25-2f03bb96f756",
         city: "1",
+        ar: 3.8,
         area: "Ramamurthy nagar",
         totalRatingsString: "",
         cloudinaryImageId: "e33e1d3ba7d6b2bb0d45e1001b731fcf",
@@ -111,6 +112,7 @@ const resList = [
         name: "prince da dhaba",
         uuid: "1deaba58-3e40-4b79-ac25-2f03bb96f756",
         city: "1",
+        ar: 4.2,
         area: "Ramamurthy nagar",
         totalRatingsString: "",
         cloudinaryImageId: "a30ed459ccdc89cf1f3ab91def783582",
@@ -211,6 +213,7 @@ const resList = [
         name: "prince da dhaba",
         uuid: "1deaba58-3e40-4b79-ac25-2f03bb96f756",
         city: "1",
+        ar: 4.8,
         area: "Ramamurthy nagar",
         totalRatingsString: "",
         cloudinaryImageId:
@@ -313,6 +316,7 @@ const resList = [
         name: "prince da dhaba",
         uuid: "1deaba58-3e40-4b79-ac25-2f03bb96f756",
         city: "1",
+        ar: 3.6,
         area: "Ramamurthy nagar",
         totalRatingsString: "",
         cloudinaryImageId:
@@ -415,6 +419,7 @@ const resList = [
         name: "prince da dhaba",
         uuid: "1deaba58-3e40-4b79-ac25-2f03bb96f756",
         city: "1",
+        ar: 4.0,
         area: "Ramamurthy nagar",
         totalRatingsString: "",
         cloudinaryImageId: "2b4f62d606d1b2bfba9ba9e5386fabb7",
@@ -516,6 +521,7 @@ const resList = [
         name: "prince da dhaba",
         uuid: "1deaba58-3e40-4b79-ac25-2f03bb96f756",
         city: "1",
+        ar: 4.1,
         area: "Ramamurthy nagar",
         totalRatingsString: "",
         cloudinaryImageId:
