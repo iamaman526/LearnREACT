@@ -1,6 +1,6 @@
 import React from "react";
 import RestaurentCard from "./RestaurentCard";
-import resList from "../utils/mockData";
+// import resList from "../utils/mockData";
 
 const Body = () => {
   const RestaurentList = [
@@ -33,7 +33,7 @@ const Body = () => {
         type: "restaurant",
         data: {
           type: "F",
-          id: "731703",
+          id: "731709",
           name: "jagdish ki dukan",
           uuid: "1deaba58-3e40-4b79-ac25-2f03bb96f756",
           city: "1",
@@ -55,11 +55,10 @@ const Body = () => {
         <button
           className="filter-btn"
           onClick={() => {
-            RestaurentList.filter((x) => {
-              return x.data.data.ar > 3.8;
-            }).map((x) => x.RestaurentList);
-            console.log("byyyyyy");
-          }}
+            const filtered = RestaurentList
+      .filter((x) => x.data.data.ar > 3.8)
+      
+    console.log(filtered);}}
         >
           Top Rated Restaurent
         </button>
@@ -67,7 +66,7 @@ const Body = () => {
       <div className="search">Search</div>
       <div className="res-container">
         {RestaurentList.map((restaurant) => (
-          <RestaurentCard key={restaurant.data.data.id} resData={restaurant} />
+          <RestaurentCard key={restaurant.data.data.id} resData ={restaurant} />
         ))}
       </div>
     </div>
