@@ -21,7 +21,7 @@ Dev Build
 Local server
 HMR = hot module replacement
 File Watching Algorithm - Written in c++
-Caching - faster builds. 
+Caching - faster builds.
 Image optimazation
 Minification of the File
 Bundling
@@ -39,8 +39,43 @@ different dev and prod bundles
 
 ## epidode three
 
-  jsx
-  react element 
-  functional component
-  component compostion
-  react fragment
+jsx
+react element
+functional component
+component compostion
+react fragment
+
+# Namaste Food
+
+/\*\*
+
+- Header
+- -logo
+- -nav bar
+- body
+
+  - -search
+  - -restaurentContainer
+  - -Restaurent Card
+  - - image
+  - - name of the restaurent
+  - - name of the res, cuisine , star rating, divilery time
+
+- footer
+  -copyright
+  -links
+  -address
+  -content
+  \*/
+
+Two types of Export and Import
+
+- Default Export/Import
+
+export default component;
+import compononet from "path";
+
+-Named Export/Import
+
+export const Component;
+import {component} from "path";
