@@ -79,3 +79,7 @@ import compononet from "path";
 
 export const Component;
 import {component} from "path";
+
+# React Hooks
+
+(Normal Javascript Function)
