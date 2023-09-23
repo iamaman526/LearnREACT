@@ -6,6 +6,10 @@ const Body = () => {
   //Local State Variable - Super powerful Variable
   const [RestaurentList, setRestaurentList] = useState(resList); //destructure
 
+    // const arr = useState(resList);
+  // const RestaurentList = arr[0];
+  // const setRestaurentList = arr[1];
+
   useEffect(() => {
     fetchData();
   }, []);
@@ -20,9 +24,7 @@ const Body = () => {
     setRestaurentList(json?.data?.cards[2]?.card?.card?.gridElements?.infoWithStyle
       ?.restaurants)
   };
-  // const arr = useState(resList);
-  // const RestaurentList = arr[0];
-  // const setRestaurentList = arr[1];
+
 
   //Normal js variables
   // const RestaurentListjs = [
