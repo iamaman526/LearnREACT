@@ -4,9 +4,9 @@ import resList from "../utils/mockData";
 
 const Body = () => {
   //Local State Variable - Super powerful Variable
-  const [RestaurentList, setRestaurentList] = useState(resList); //destructure
+  const [RestaurentList, setRestaurentList] = useState([]); //destructure
 
-    // const arr = useState(resList);
+  // const arr = useState(resList);
   // const RestaurentList = arr[0];
   // const setRestaurentList = arr[1];
 
@@ -21,10 +21,11 @@ const Body = () => {
 
     const json = await data.json();
     console.log(json);
-    setRestaurentList(json?.data?.cards[2]?.card?.card?.gridElements?.infoWithStyle
-      ?.restaurants)
+    setRestaurentList(
+      json?.data?.cards[2]?.card?.card?.gridElements?.infoWithStyle
+        ?.restaurants || []
+    );
   };
-
 
   //Normal js variables
   // const RestaurentListjs = [
@@ -102,10 +103,13 @@ const Body = () => {
         <button
           className="filter-btn"
           onClick={() => {
-            const filtered = RestaurentList.filter((x) => x.data.data.ar > 3.8);
+            const filtered = RestaurentList.filter(
+              (x) => x.info.avgRating > 4.1
+            );
 
-            console.log(filtered);
             setRestaurentList(filtered);
+            // console.log(filtered);
+      
           }}
         >
           Top Rated Restaurent
@@ -114,7 +118,7 @@ const Body = () => {
       <div className="search">Search</div>
       <div className="res-container">
         {RestaurentList.map((restaurant) => (
-          <RestaurentCard key={restaurant.data.data.id} resData={restaurant} />
+          <RestaurentCard key={restaurant?.info.id} resData={restaurant} />
         ))}
       </div>
     </div>
