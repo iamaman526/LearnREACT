@@ -37,8 +37,8 @@
   /* height: 29em; */
   margin: 4px;
   padding: 4px;
-max-width: auto;
-word-wrap: break-word;
+  max-width: auto;
+  word-wrap: break-word;
 }
 
 .res-card:hover {
@@ -62,4 +62,18 @@ word-wrap: break-word;
 .filter-btn {
   margin: 0.5rem;
   cursor: pointer;
+}
+
+.Loading {
+  height: 800px;
+  position: relative;
+  background: white;
+}
+
+.Loading > img {
+  width: 20%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
