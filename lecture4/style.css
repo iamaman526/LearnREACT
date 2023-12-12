@@ -63,18 +63,20 @@
   margin: 0.5rem;
   cursor: pointer;
 }
+.shimmer-container{
+  display: flex;
+  flex-wrap: wrap;
 
-.Loading {
-  height: 800px;
-  position: relative;
-  background: white;
+}
+.shimmer-card {
+  width: 200px;
+  height: 400px;
+  margin: 20px;
+  background-color: grey;
 }
 
-.Loading > img {
-  width: 20%;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+.login{
+
+  padding: 0 20px;
+  cursor: pointer;
 }
-.
