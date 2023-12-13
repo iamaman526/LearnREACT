@@ -98,13 +98,16 @@ const Body = () => {
   //   },
   // ];
 
-
   //CONDITIONAL RENDERING
   return RestaurentList.length === 0 ? (
     <Shimmer />
   ) : (
     <div className="body">
       <div className="filter">
+        <div className="search">
+          <input type="text"className="search-box"/>
+          <button className="search">Search</button>
+        </div>
         <button
           className="filter-btn"
           onClick={() => {
