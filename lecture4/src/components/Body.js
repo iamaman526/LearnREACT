@@ -5,6 +5,10 @@ const Body = () => {
   //Local State Variable - Super powerful Variable
   const [RestaurentList, setRestaurentList] = useState([]); //destructure
 
+  const [filteredRestaurent, setfilteredRestaurant] = useState([]);
+  const [searchText, setsearchText] = useState("");
+  console.log("bb");
+
   // const arr = useState(resList);
   // const RestaurentList = arr[0];
   // const setRestaurentList = arr[1];
@@ -19,8 +23,15 @@ const Body = () => {
     );
 
     const json = await data.json();
+
     console.log(json);
+
+    // optional  chaining
     setRestaurentList(
+      json?.data?.cards[2]?.card?.card?.gridElements?.infoWithStyle
+        ?.restaurants || []
+    );
+    setfilteredRestaurant(
       json?.data?.cards[2]?.card?.card?.gridElements?.infoWithStyle
         ?.restaurants || []
     );
@@ -105,8 +116,28 @@ const Body = () => {
     <div className="body">
       <div className="filter">
         <div className="search">
-          <input type="text"className="search-box"/>
-          <button className="search">Search</button>
+          <input
+            type="text"
+            className="search-box"
+            value={searchText}
+            onChange={(e) => {
+              setsearchText(e.target.value);
+            }}
+          />
+          <button
+            onClick={() => {
+              //filer the restaurent and update the UI
+              // searchText
+              console.log(searchText);
+
+              const filteredRestaurent = RestaurentList.filter((res) =>
+                res.info.name.toLowerCase().includes(searchText.toLowerCase())
+              );
+              setfilteredRestaurant(filteredRestaurent);
+            }}
+          >
+            Search
+          </button>
         </div>
         <button
           className="filter-btn"
@@ -124,7 +155,7 @@ const Body = () => {
       </div>
       {/* <div className="search">Search</div> */}
       <div className="res-container">
-        {RestaurentList.map((restaurant) => (
+        {filteredRestaurent.map((restaurant) => (
           <RestaurentCard key={restaurant?.info.id} resData={restaurant} />
         ))}
       </div>
